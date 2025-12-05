@@ -383,11 +383,6 @@ body {
     border-color: var(--accent-blue);
 }
 
-.value-icon {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-}
-
 .value-card h3 {
     color: var(--primary-blue);
     font-size: 1.3rem;
@@ -645,6 +640,14 @@ body {
     margin-top: 40px;
 }
 
+.info-text {
+    color: var(--text-dark);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* ===== Documents Section ===== */
 .documents-section {
     background: var(--primary-yellow);
@@ -671,11 +674,6 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px var(--shadow-medium);
     border-color: var(--accent-blue);
-}
-
-.doc-icon {
-    font-size: 3rem;
-    margin-bottom: 20px;
 }
 
 .doc-card h3 {
